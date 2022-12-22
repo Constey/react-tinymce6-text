@@ -1,4 +1,4 @@
-# react-tinymce-text
+# react-tinymce-5text
 
 ## Summary
 
