@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-tinymce6-text",
+    "id": "0b41af07-3228-4ac5-9cca-3e341663f565",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Constantin Lotz",
+      "websiteUrl": "https://www.constey.de",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "This Webpart provides TinyMCE v6 Text Editor as a Webpart"
+      },
+      "longDescription": {
+        "default": "This Webpart provides TinyMCE v6 Text Editor as a Webpart"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-tinymce6-text Feature",
+        "description": "This Webpart provides TinyMCE v6 Text Editor as a Webpart",
+        "id": "8adf524a-d465-4383-bfea-8e9f5de156a7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-tinymce6-text.sppkg"
+  }
+}

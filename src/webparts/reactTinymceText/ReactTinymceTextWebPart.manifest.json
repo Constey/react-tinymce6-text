@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "5a4db584-6a93-40d2-8340-13fb35dc5034",
+  "alias": "ReactTinymceTextWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+  // Full Width support:
+  "supportsFullBleed": true,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "cf066440-0614-43d6-98ae-0b31cf14c7c3", // Text, media, and content
+    "group": { "default": "Content" },
+    "title": { "default": "Text Tinymce" },
+    "description": { "default": "This Webpart is for adding Text with the use of the TinyMCE6 Editor." },
+    "officeFabricIconFontName": "InsertTextBox",
+    "properties": {
+      //"description": "currently not in use"
+    }
+  }]
+}

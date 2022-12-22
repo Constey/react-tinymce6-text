@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.21.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "react-tinymce-text",
+    "libraryId": "0b41af07-3228-4ac5-9cca-3e341663f565",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-tinymce-text",
+    "solutionShortDescription": "react-tinymce-text description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
